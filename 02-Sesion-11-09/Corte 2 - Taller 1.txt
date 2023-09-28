@@ -1,0 +1,15 @@
+Corte 2 - Taller 1
+* Desarrollar algortimos en PSEInt
+* Realizar la prueba de escritorio de los ejercicios, puede ser Excel.
+* Realizar un video por ejercicio explicadolo al mismo.
+
+===============================
+1. Se dispone de 1'000.000(P) de pesos el cual se deposita en una entidad financiera que le pagará un interés mensual del 2.5% (i) sobre la cantidad inicial acumulada cada mes. ¿Cuánto se tendrá al final de 1 año(n-en meses)?
+
+-	Aplicando la fórmula F = P * ( 1+i )^n
+
+2. Calcular el número de pulsaciones que debe tener una persona por cada 10 segundos de ejercicio aeróbico; la fórmula que se aplica cuando el sexo es femenino es:
+-	num. pulsaciones = (220 - edad)/10
+y si el sexo es masculino:
+-	num. pulsaciones = (210 - edad)/10
+
