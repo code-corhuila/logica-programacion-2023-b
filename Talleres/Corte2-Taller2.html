@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Corte 2 - Taller 2</title>
+</head>
+<body>
+
+<h3>Caso 1: Decidir entre comprar un automóvil o un terreno</h3>
+
+<p>Una persona se encuentra con un problema de comprar un automóvil o un terreno, los cuales cuestan exactamente lo mismo. Sabe que mientras el automóvil se devalúa, con el terreno sucede lo contrario. Esta persona comprará el automóvil si al cabo de tres años la devaluación de este no es mayor que la mitad del incremento del valor del terreno. Ayúdale a esta persona a determinar si debe o no comprar el automóvil.</p>
+
+<p><strong>Nota:</strong> Todo va a depender del valor del automóvil y del terreno. Tenga en cuenta que el valor de la devaluación del automóvil y el incremento del terreno se dan en porcentajes y son ingresados por el usuario.</p>
+
+<h3>Caso 2: Cálculo de precio de llantas "Ponchadas"</h3>
+
+<p>En una llantera se ha establecido una promoción de las llantas marca "Ponchadas". Esta promoción consiste en lo siguiente:</p>
+
+<ul>
+  <li>Si se compran menos de cinco llantas, el precio es de $300 cada una.</li>
+  <li>Si se compran de cinco a 10 llantas, el precio es de $250 por unidad.</li>
+  <li>Si se compran más de 10 llantas, el precio es de $200 por cada una.</li>
+  <li>Debes comprobar si estos casos de estudio están bien o no, basado en los criterios de aceptación.</li>
+</ul>
+
+<p>El objetivo es calcular la cantidad de dinero que una persona debe pagar por cada llanta que compra y la cantidad total que debe pagar por la compra completa.</p>
+
+<p><strong>Nota general:</strong> Recuerde que en caso de ingresar datos negativos o igual a cero, el programa debe mostrar un mensaje de error y terminar la ejecución del programa.</p>
+
+<h3>Elementos a entregar:</h3>
+<ul>
+  <li>Diagrama de flujo</li>
+  <li>Código fuente</li>
+  <li>Prueba de escritorio</li>
+</ul>
+
+<h3>Casos de Prueba: Caso 1 - Decidir entre comprar un automóvil o un terreno</h3>
+
+<table>
+  <tr>
+    <th>Caso de Prueba</th>
+    <th>VA</th>
+    <th>VT</th>
+    <th>DA (%)</th>
+    <th>IT (%)</th>
+    <th>RE</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>$20000</td>
+    <td>$20000</td>
+    <td>5%</td>
+    <td>5%</td>
+    <td>Comprar Automóvil</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>$25000</td>
+    <td>$30000</td>
+    <td>4%</td>
+    <td>6%</td>
+    <td>Comprar Terreno</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>$18000</td>
+    <td>$22000</td>
+    <td>6%</td>
+    <td>4%</td>
+    <td>Comprar Automóvil</td>
+  </tr>
+  <tr>
+    <td>Caso 4</td>
+    <td>$30000</td>
+    <td>$28000</td>
+    <td>3%</td>
+    <td>7%</td>
+    <td>Comprar Terreno</td>
+  </tr>
+  <tr>
+    <td>Caso 5</td>
+    <td>$20000</td>
+    <td>$25000</td>
+    <td>8%</td>
+    <td>5%</td>
+    <td>Comprar Automóvil</td>
+  </tr>
+</table>
+
+<h3>Casos de Prueba: Caso 2 - Cálculo de precio de llantas "Ponchadas"</h3>
+
+<table>
+  <tr>
+    <th>Caso de Prueba</th>
+    <th>CL</th>
+    <th>PU</th>
+    <th>PT</th>
+  </tr>
+  <tr>
+    <td>Caso 1</td>
+    <td>3</td>
+    <td>$300</td>
+    <td>$900</td>
+  </tr>
+  <tr>
+    <td>Caso 2</td>
+    <td>7</td>
+    <td>$250</td>
+    <td>$1750</td>
+  </tr>
+  <tr>
+    <td>Caso 3</td>
+    <td>15</td>
+    <td>$200</td>
+    <td>$3000</td>
+  </tr>
+  <tr>
+    <td>Caso 4</td>
+    <td>0</td>
+    <td>Mensaje de Error</td>
+    <td>Mensaje de Error</td>
+  </tr>
+  <tr>
+    <td>Caso 5</td>
+    <td>-2</td>
+    <td>Mensaje de Error</td>
+    <td>Mensaje de Error</td>
+  </tr>
+</table>
+
+</body>
+</html>
