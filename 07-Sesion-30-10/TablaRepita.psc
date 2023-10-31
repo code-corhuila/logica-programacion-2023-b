@@ -3,14 +3,15 @@
 // 1 * 1 = 1
 // 1 * 2 = 2
 // c * i = (c*i)
-Algoritmo TablaMientras
+Algoritmo TablaRepita
 	Definir  c, i Como Entero
 	
 	Escribir "Sr. Usuario, elegir el la tabla de multiplciar del 1 al 10: "
 	leer c
 	i<-1
-	Mientras i<=10 Hacer
+	Repetir
 		Escribir c," * ",i, " = ",c*i
 		i<-i+1
-	FinMientras
+	Hasta Que i>10
+	
 FinAlgoritmo
